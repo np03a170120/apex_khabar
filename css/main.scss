@@ -1,0 +1,291 @@
+@import "./base/globals";
+@import "./base/variables";
+@import "./base/mixins";
+// header
+.header-top-wrapper {
+    background: $primary_color;
+    padding: 6px;
+}
+
+.no-pad {
+    padding: 0;
+}
+
+.header-top {
+    h6,
+    span {
+        font-size: 10px;
+        color: white;
+    }
+}
+
+.big-phone {
+    display: flex;
+    align-items: center;
+    h6 {
+        margin: 0;
+        margin-right: 8px;
+    }
+}
+
+.disp {
+    display: flex;
+    align-items: center;
+}
+
+.disp-jl {
+    justify-content: left;
+}
+
+.disp-jc {
+    justify-content: center;
+}
+
+.disp-jr {
+    justify-content: right;
+}
+
+.header-logo {
+    margin: 12px 0;
+}
+
+.bigya-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bigya-left,
+.bigya-right {
+    width: 100%;
+}
+
+.header-mid-date {
+    display: flex;
+    justify-content: center;
+}
+
+.hmd-single {
+    margin: 0 12px;
+    span {
+        font-weight: 600;
+        color: $secondary_color;
+    }
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    li {
+        text-align: center;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background: $secondary_color;
+        line-height: 30px;
+        margin-right: 6px;
+        a {
+            color: white;
+            font-size: 12px;
+        }
+    }
+}
+
+.header-bottom-menu {
+    .navbar {
+        margin-top: 12px;
+        border-top: 2px solid $secondary_color;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: center;
+    }
+    .navbar-expand-lg .navbar-nav {
+        display: flex;
+        align-items: center;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-weight: 600;
+        color: black;
+    }
+}
+
+.trending {
+    border-top: 0;
+    .navbar-expand-lg .navbar-nav {
+        align-items: center;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: $secondary_color;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    li {
+        margin-right: 8px;
+    }
+}
+
+.no-pad {
+    padding: 0;
+}
+
+// big news start
+.big-news {
+    margin: 60px 0;
+}
+
+.bn-title {
+    text-align: center;
+    h3 {
+        font-weight: 600;
+    }
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.author-image {
+    img {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
+
+.author-title {
+    margin-left: 8px;
+    h6 {
+        font-size: 12px;
+        margin: 0;
+        font-weight: 600;
+        color: $secondary_color;
+    }
+}
+
+.author-time {
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time-stamp {
+    span {
+        font-weight: 600;
+        font-size: 14px;
+    }
+}
+
+.bn-image {
+    margin-top: 12px;
+    img {
+        height: 600px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+// big-news end
+// big-news-bigya
+.big-news-bigya {
+    margin: 18px 0;
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+// medium bigya start
+.med-bigya {
+    margin-bottom: 18px;
+}
+
+.mb-image {
+    margin: 18px 0;
+    img {
+        width: 100%;
+    }
+}
+
+.md-title {
+    h6 {
+        font-weight: 600;
+    }
+}
+
+.md-author {
+    display: flex;
+    align-items: center;
+    span {
+        font-size: 12px;
+        color: $secondary_color;
+        font-weight: 600;
+    }
+}
+
+.ts-small {
+    span {
+        font-size: 12px;
+    }
+}
+
+.md-author-date {
+    display: flex;
+    align-items: center;
+}
+
+// medium bigya end
+.col-four-bigya {
+    img {
+        height: auto;
+        width: 100%;
+    }
+}
+
+.long-bigya {
+    margin: 18px 0;
+    img {
+        height: 145px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.small-mod {
+    margin: 8px 0;
+    img {
+        height: 150px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.title-small {
+    h6 {
+        font-size: 14px;
+    }
+}
+
+.custom-image {
+    margin-top: 8px;
+    img {
+        height: 375px;
+    }
+}
+
+.custom-side-bigya {
+    margin-bottom: 12px;
+    img {
+        height: 150px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.small-title {
+    h6 {
+        font-size: 14px;
+    }
+}

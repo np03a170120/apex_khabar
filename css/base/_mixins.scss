@@ -1,0 +1,19 @@
+@import "./variables";
+@mixin learn_more {
+    a {
+        background: $secondary_color;
+        color: white;
+        padding: 10px 20px;
+        display: inline-block;
+        margin: 20px 0;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        &:hover {
+            // box-shadow: 10px 12px 20px #00000080;
+            background: none;
+            outline: 1px solid $secondary_color;
+            color: $secondary_color;
+        }
+    }
+}
