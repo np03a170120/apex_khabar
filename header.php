@@ -51,6 +51,7 @@
                     <img src="./images/header-logo.png" alt="">
                 </div>
             </div>
+
             <div class="header-mid-date">
                 <div class="hmd-single">
                     <img src="./images/calender-icon.png" alt="">
@@ -122,15 +123,25 @@
                                     अन्य
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
+                                    <a class="dropdown-item" href="#">विचार</a>
+                                    <a class="dropdown-item" href="#">समाज</a>
+                                    <a class="dropdown-item" href="#">स्थानीय सरकार</a>
+                                    <a class="dropdown-item" href="#">विचार</a>
+                                    <a class="dropdown-item" href="#">समाज</a>
+                                    <a class="dropdown-item" href="#">विचार</a>
+                                    <a class="dropdown-item" href="#">फुर्साङ</a>
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">
+                                <a class="nav-link" id="search-btn">
                                     <img src="./images/search-icon.png" alt="">
                                 </a>
+                                <div class="search-box">
+                                    <form action="#" _lpchecked="1">
+                                        <input type="text" placeholder="यहाँ टाईप गर्नुहोस् ..." name="keywords">
+                                        <input type="submit" value="खोज्नुहोस्">
+                                    </form>
+                                </div>
                             </li>
                         </ul>
                     </div>

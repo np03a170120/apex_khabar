@@ -97,6 +97,7 @@ body {
 }
 
 .view-all {
+    background: #f0f0ef;
     a {
         color: $primary_color;
         font-size: 18px;
@@ -114,9 +115,10 @@ body {
         position: absolute;
         content: "";
         height: 2px;
-        width: 80%;
+        width: 100%;
         left: 50%;
         border: 1px solid $primary_color;
+        z-index: -1;
         transform: translateX(-50%);
     }
 }
