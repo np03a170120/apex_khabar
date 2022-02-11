@@ -774,4 +774,66 @@ body p {
   outline: none;
   cursor: pointer;
 }
+
+.inner-breadcrumb {
+  margin: 12px 0;
+}
+
+.inner-breadcrumb a {
+  color: #013e77;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.inner-breadcrumb .active {
+  color: #cc062d;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.mc-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 32px 0;
+}
+
+.mct-mt {
+  font-size: 28px;
+  font-weight: 600;
+  color: #cc062d;
+  margin-right: 12px;
+}
+
+.mct-mt-p {
+  font-size: 28px;
+  font-weight: 600;
+  color: #013e77;
+}
+
+.lr-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tbs-left {
+  margin-right: 12px;
+}
+
+.tbs-left img {
+  height: 250px;
+  width: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 /*# sourceMappingURL=main.css.map */

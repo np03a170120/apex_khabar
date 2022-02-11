@@ -565,3 +565,51 @@
     outline: none;
     cursor: pointer;
 }
+
+.inner-breadcrumb {
+    margin: 12px 0;
+    a {
+        color: $secondary_color;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .active {
+        color: $primary-color;
+        font-weight: 600;
+        font-size: 14px;
+    }
+}
+
+.mc-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 32px 0;
+}
+
+.mct-mt {
+    font-size: 28px;
+    font-weight: 600;
+    color: $primary-color;
+    margin-right: 12px;
+}
+
+.mct-mt-p {
+    font-size: 28px;
+    font-weight: 600;
+    color: $secondary_color;
+}
+
+.lr-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.tbs-left {
+    margin-right: 12px;
+    img {
+        height: 250px;
+        width: 350px;
+        object-fit: cover;
+    }
+}

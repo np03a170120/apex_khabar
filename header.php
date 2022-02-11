@@ -18,7 +18,6 @@
 
 <body>
     <header class="header-main">
-
         <div class="header-top-wrapper">
             <div class="container">
                 <div class="header-top">
@@ -76,7 +75,6 @@
             </div>
             <div class="header-bottom-menu">
                 <nav class="navbar navbar-expand-lg navbar-light ">
-
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -117,6 +115,9 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">स्थानीय सरकार</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">समाज</a>
+                            </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -148,7 +149,6 @@
                 </nav>
             </div>
         </div>
-
         <!-- trending -->
         <div class="container-fluid no-pad">
             <div class="trending">
@@ -178,6 +178,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">#स्थानीय सरकार</a>
                             </li>
+
                             <li class="nav-item">
                                 <a class="nav-link" href="#">#सबाल्टर्न</a>
                             </li>
@@ -190,10 +191,13 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">#समाज</a>
                             </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">#समाज</a>
+                            </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">#स्थानीय सरकार</a>
                             </li>
-
                         </ul>
                     </div>
                 </nav>
