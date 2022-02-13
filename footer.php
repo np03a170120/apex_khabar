@@ -168,9 +168,7 @@
     <button onclick="topFunction()" id="myTopbtn" title="Go to top" style="display: inline-block;"><img
             src="./images/top-arrow-icon.png" alt=""></button>
 </footer>
-<!-- UIkit JS -->
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/js/uikit.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/js/uikit-icons.min.js"></script>
+
 <script src="./js/jquery-3.5.1.js"></script>
 <script src="./js/bootstrap.min.js"></script>
 <script src="./js/slick.min.js"></script>
