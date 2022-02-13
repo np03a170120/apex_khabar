@@ -1,4 +1,22 @@
 <footer>
+    <!-- Modal bigyapan -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+
+                <div class="logo">
+                    <img src="./images/header-logo.png" alt="">
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><img src="./images/cross-btn.png" alt=""></span>
+                </button>
+                <div class="mc-image">
+                    <img src="./images/bigya.jpg    " alt="">
+                </div>
+            </div>
+        </div>
+    </div>
     <section class="footer-main">
         <div class="container-fluid">
             <div class="fm-upper">
@@ -150,7 +168,9 @@
     <button onclick="topFunction()" id="myTopbtn" title="Go to top" style="display: inline-block;"><img
             src="./images/top-arrow-icon.png" alt=""></button>
 </footer>
-
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/js/uikit-icons.min.js"></script>
 <script src="./js/jquery-3.5.1.js"></script>
 <script src="./js/bootstrap.min.js"></script>
 <script src="./js/slick.min.js"></script>
