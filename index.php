@@ -1084,239 +1084,244 @@
             </div>
         </div>
         <!-- fix navigation tab -->
-        <!-- <div class="mp-nav-tab">
-            <nav>
-                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
-                        type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
-                    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
-                        type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>
-                    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
-                        type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
-                </div>
-            </nav>
-            <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">1
-                </div>
-                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">2</div>
-                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">3</div>
-            </div>
-        </div> -->
-        <div class="row">
-            <div class="col-md-7">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="med-bigya">
-                            <a href="#">
-                                <div class="mb-image small-mod">
-                                    <img src="./images/dummy-image-0.png" alt="">
-                                </div>
-                                <div class="md-title title-small">
-                                    <h6>भोलिदेखि आइतबारसम्म असिनासहित वर्षा हुनसक्ने </h6>
-                                </div>
-                            </a>
-                            <div class="md-author-date"><a href="#">
-                                </a>
-                                <div class="md-author"><a href="#">
-                                    </a><a href="#">
-                                        <img src="./images/author-icon.png" alt="">
-                                        <span>चम्पा कुमारी</span>
-                                    </a>
-                                </div>
-                                <div class="time-stamp ts-small">
-                                    <div class="hmd-single">
-                                        <img src="./images/calender-icon-small.png" alt="">
-                                        <span> माघ १९, बुधबार</span>
+        <div class="mp-nav-tab">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                        aria-controls="home" aria-selected="true">प्रदेश १</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                        aria-controls="profile" aria-selected="false">मधेश</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                        aria-controls="contact" aria-selected="false">बागमती</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="med-bigya">
+                                        <a href="#">
+                                            <div class="mb-image small-mod">
+                                                <img src="./images/dummy-image-0.png" alt="">
+                                            </div>
+                                            <div class="md-title title-small">
+                                                <h6>भोलिदेखि आइतबारसम्म असिनासहित वर्षा हुनसक्ने </h6>
+                                            </div>
+                                        </a>
+                                        <div class="md-author-date"><a href="#">
+                                            </a>
+                                            <div class="md-author"><a href="#">
+                                                </a><a href="#">
+                                                    <img src="./images/author-icon.png" alt="">
+                                                    <span>चम्पा कुमारी</span>
+                                                </a>
+                                            </div>
+                                            <div class="time-stamp ts-small">
+                                                <div class="hmd-single">
+                                                    <img src="./images/calender-icon-small.png" alt="">
+                                                    <span> माघ १९, बुधबार</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
-                            </div>
+                                <div class="col-md-6">
+                                    <div class="med-bigya">
+                                        <a href="#">
+                                            <div class="mb-image small-mod">
+                                                <img src="./images/dummy-image-0.png" alt="">
+                                            </div>
+                                            <div class="md-title title-small">
+                                                <h6>भोलिदेखि आइतबारसम्म असिनासहित वर्षा हुनसक्ने </h6>
+                                            </div>
+                                        </a>
+                                        <div class="md-author-date"><a href="#">
+                                            </a>
+                                            <div class="md-author"><a href="#">
+                                                </a><a href="#">
+                                                    <img src="./images/author-icon.png" alt="">
+                                                    <span>चम्पा कुमारी</span>
+                                                </a>
+                                            </div>
+                                            <div class="time-stamp ts-small">
+                                                <div class="hmd-single">
+                                                    <img src="./images/calender-icon-small.png" alt="">
+                                                    <span> माघ १९, बुधबार</span>
+                                                </div>
+                                            </div>
+                                        </div>
 
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="med-bigya">
-                            <a href="#">
-                                <div class="mb-image small-mod">
-                                    <img src="./images/dummy-image-0.png" alt="">
-                                </div>
-                                <div class="md-title title-small">
-                                    <h6>भोलिदेखि आइतबारसम्म असिनासहित वर्षा हुनसक्ने </h6>
-                                </div>
-                            </a>
-                            <div class="md-author-date"><a href="#">
-                                </a>
-                                <div class="md-author"><a href="#">
-                                    </a><a href="#">
-                                        <img src="./images/author-icon.png" alt="">
-                                        <span>चम्पा कुमारी</span>
-                                    </a>
-                                </div>
-                                <div class="time-stamp ts-small">
-                                    <div class="hmd-single">
-                                        <img src="./images/calender-icon-small.png" alt="">
-                                        <span> माघ १९, बुधबार</span>
                                     </div>
                                 </div>
-                            </div>
+                                <div class="col-md-6">
+                                    <div class="med-bigya">
+                                        <a href="#">
+                                            <div class="mb-image small-mod">
+                                                <img src="./images/dummy-image-0.png" alt="">
+                                            </div>
+                                            <div class="md-title title-small">
+                                                <h6>भोलिदेखि आइतबारसम्म असिनासहित वर्षा हुनसक्ने </h6>
+                                            </div>
+                                        </a>
+                                        <div class="md-author-date"><a href="#">
+                                            </a>
+                                            <div class="md-author"><a href="#">
+                                                </a><a href="#">
+                                                    <img src="./images/author-icon.png" alt="">
+                                                    <span>चम्पा कुमारी</span>
+                                                </a>
+                                            </div>
+                                            <div class="time-stamp ts-small">
+                                                <div class="hmd-single">
+                                                    <img src="./images/calender-icon-small.png" alt="">
+                                                    <span> माघ १९, बुधबार</span>
+                                                </div>
+                                            </div>
+                                        </div>
 
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="med-bigya">
-                            <a href="#">
-                                <div class="mb-image small-mod">
-                                    <img src="./images/dummy-image-0.png" alt="">
-                                </div>
-                                <div class="md-title title-small">
-                                    <h6>भोलिदेखि आइतबारसम्म असिनासहित वर्षा हुनसक्ने </h6>
-                                </div>
-                            </a>
-                            <div class="md-author-date"><a href="#">
-                                </a>
-                                <div class="md-author"><a href="#">
-                                    </a><a href="#">
-                                        <img src="./images/author-icon.png" alt="">
-                                        <span>चम्पा कुमारी</span>
-                                    </a>
-                                </div>
-                                <div class="time-stamp ts-small">
-                                    <div class="hmd-single">
-                                        <img src="./images/calender-icon-small.png" alt="">
-                                        <span> माघ १९, बुधबार</span>
                                     </div>
                                 </div>
-                            </div>
 
-                        </div>
-                    </div>
+                                <div class="col-md-6">
+                                    <div class="med-bigya">
+                                        <a href="#">
+                                            <div class="mb-image small-mod">
+                                                <img src="./images/dummy-image-0.png" alt="">
+                                            </div>
+                                            <div class="md-title title-small">
+                                                <h6>भोलिदेखि आइतबारसम्म असिनासहित वर्षा हुनसक्ने </h6>
+                                            </div>
+                                        </a>
+                                        <div class="md-author-date"><a href="#">
+                                            </a>
+                                            <div class="md-author"><a href="#">
+                                                </a><a href="#">
+                                                    <img src="./images/author-icon.png" alt="">
+                                                    <span>चम्पा कुमारी</span>
+                                                </a>
+                                            </div>
+                                            <div class="time-stamp ts-small">
+                                                <div class="hmd-single">
+                                                    <img src="./images/calender-icon-small.png" alt="">
+                                                    <span> माघ १९, बुधबार</span>
+                                                </div>
+                                            </div>
+                                        </div>
 
-                    <div class="col-md-6">
-                        <div class="med-bigya">
-                            <a href="#">
-                                <div class="mb-image small-mod">
-                                    <img src="./images/dummy-image-0.png" alt="">
-                                </div>
-                                <div class="md-title title-small">
-                                    <h6>भोलिदेखि आइतबारसम्म असिनासहित वर्षा हुनसक्ने </h6>
-                                </div>
-                            </a>
-                            <div class="md-author-date"><a href="#">
-                                </a>
-                                <div class="md-author"><a href="#">
-                                    </a><a href="#">
-                                        <img src="./images/author-icon.png" alt="">
-                                        <span>चम्पा कुमारी</span>
-                                    </a>
-                                </div>
-                                <div class="time-stamp ts-small">
-                                    <div class="hmd-single">
-                                        <img src="./images/calender-icon-small.png" alt="">
-                                        <span> माघ १९, बुधबार</span>
                                     </div>
                                 </div>
-                            </div>
 
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="text-bigya-single">
-                    <a href="#">
-                        <div class="tbs-title">
-                            <h6>भोलिदेखि आइतबारसम्म असिनासहित वर्षा हुनसक्ने</h6>
-                        </div>
-                        <div class="tbs-desc">
-                            <p>पीएरे एमरिक आउबामियाङले आपसी समझदारीमा क्लब छाडेको आर्सनलले पुष्टि गरेको छ ।
-                                उनी
-                                तर,
-                                क्लबले
-                                गाबोनकातर, क्लबले गाबोनका आर्सनल छाडेर
-                                बार्सिलोना पुगेका छन् । तर, क्लबले गाबोनका</p>
-                        </div>
-                    </a>
-                    <div class="md-author-date"><a href="#"></a><a href="#">
-                        </a>
-                        <div class="md-author"><a href="#">
-                            </a><a href="#">
-                                <img src="./images/author-icon.png" alt="">
-                                <span>चम्पा कुमारी</span>
-                            </a>
-                        </div>
-                        <div class="time-stamp ts-small">
-                            <div class="hmd-single">
-                                <img src="./images/calender-icon-small.png" alt="">
-                                <span> माघ १९, बुधबार</span>
                             </div>
                         </div>
-                    </div>
+                        <div class="col-md-5">
+                            <div class="text-bigya-single">
+                                <a href="#">
+                                    <div class="tbs-title">
+                                        <h6>भोलिदेखि आइतबारसम्म असिनासहित वर्षा हुनसक्ने</h6>
+                                    </div>
+                                    <div class="tbs-desc">
+                                        <p>पीएरे एमरिक आउबामियाङले आपसी समझदारीमा क्लब छाडेको आर्सनलले पुष्टि गरेको छ ।
+                                            उनी
+                                            तर,
+                                            क्लबले
+                                            गाबोनकातर, क्लबले गाबोनका आर्सनल छाडेर
+                                            बार्सिलोना पुगेका छन् । तर, क्लबले गाबोनका</p>
+                                    </div>
+                                </a>
+                                <div class="md-author-date"><a href="#"></a><a href="#">
+                                    </a>
+                                    <div class="md-author"><a href="#">
+                                        </a><a href="#">
+                                            <img src="./images/author-icon.png" alt="">
+                                            <span>चम्पा कुमारी</span>
+                                        </a>
+                                    </div>
+                                    <div class="time-stamp ts-small">
+                                        <div class="hmd-single">
+                                            <img src="./images/calender-icon-small.png" alt="">
+                                            <span> माघ १९, बुधबार</span>
+                                        </div>
+                                    </div>
+                                </div>
 
-                </div>
-                <div class="text-bigya-single">
-                    <a href="#">
-                        <div class="tbs-title">
-                            <h6>भोलिदेखि आइतबारसम्म असिनासहित वर्षा हुनसक्ने</h6>
-                        </div>
-                        <div class="tbs-desc">
-                            <p>पीएरे एमरिक आउबामियाङले आपसी समझदारीमा क्लब छाडेको आर्सनलले पुष्टि गरेको छ ।
-                                उनी
-                                तर,
-                                क्लबले
-                                गाबोनकातर, क्लबले गाबोनका आर्सनल छाडेर
-                                बार्सिलोना पुगेका छन् । तर, क्लबले गाबोनका</p>
-                        </div>
-                    </a>
-                    <div class="md-author-date"><a href="#"></a><a href="#">
-                        </a>
-                        <div class="md-author"><a href="#">
-                            </a><a href="#">
-                                <img src="./images/author-icon.png" alt="">
-                                <span>चम्पा कुमारी</span>
-                            </a>
-                        </div>
-                        <div class="time-stamp ts-small">
-                            <div class="hmd-single">
-                                <img src="./images/calender-icon-small.png" alt="">
-                                <span> माघ १९, बुधबार</span>
+                            </div>
+                            <div class="text-bigya-single">
+                                <a href="#">
+                                    <div class="tbs-title">
+                                        <h6>भोलिदेखि आइतबारसम्म असिनासहित वर्षा हुनसक्ने</h6>
+                                    </div>
+                                    <div class="tbs-desc">
+                                        <p>पीएरे एमरिक आउबामियाङले आपसी समझदारीमा क्लब छाडेको आर्सनलले पुष्टि गरेको छ ।
+                                            उनी
+                                            तर,
+                                            क्लबले
+                                            गाबोनकातर, क्लबले गाबोनका आर्सनल छाडेर
+                                            बार्सिलोना पुगेका छन् । तर, क्लबले गाबोनका</p>
+                                    </div>
+                                </a>
+                                <div class="md-author-date"><a href="#"></a><a href="#">
+                                    </a>
+                                    <div class="md-author"><a href="#">
+                                        </a><a href="#">
+                                            <img src="./images/author-icon.png" alt="">
+                                            <span>चम्पा कुमारी</span>
+                                        </a>
+                                    </div>
+                                    <div class="time-stamp ts-small">
+                                        <div class="hmd-single">
+                                            <img src="./images/calender-icon-small.png" alt="">
+                                            <span> माघ १९, बुधबार</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="text-bigya-single">
+                                <a href="#">
+                                    <div class="tbs-title">
+                                        <h6>भोलिदेखि आइतबारसम्म असिनासहित वर्षा हुनसक्ने</h6>
+                                    </div>
+                                    <div class="tbs-desc">
+                                        <p>पीएरे एमरिक आउबामियाङले आपसी समझदारीमा क्लब छाडेको आर्सनलले पुष्टि गरेको छ ।
+                                            उनी
+                                            तर,
+                                            क्लबले
+                                            गाबोनकातर, क्लबले गाबोनका आर्सनल छाडेर
+                                            बार्सिलोना पुगेका छन् । तर, क्लबले गाबोनका</p>
+                                    </div>
+                                </a>
+                                <div class="md-author-date"><a href="#"></a><a href="#">
+                                    </a>
+                                    <div class="md-author"><a href="#">
+                                        </a><a href="#">
+                                            <img src="./images/author-icon.png" alt="">
+                                            <span>चम्पा कुमारी</span>
+                                        </a>
+                                    </div>
+                                    <div class="time-stamp ts-small">
+                                        <div class="hmd-single">
+                                            <img src="./images/calender-icon-small.png" alt="">
+                                            <span> माघ १९, बुधबार</span>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
-
                 </div>
-                <div class="text-bigya-single">
-                    <a href="#">
-                        <div class="tbs-title">
-                            <h6>भोलिदेखि आइतबारसम्म असिनासहित वर्षा हुनसक्ने</h6>
-                        </div>
-                        <div class="tbs-desc">
-                            <p>पीएरे एमरिक आउबामियाङले आपसी समझदारीमा क्लब छाडेको आर्सनलले पुष्टि गरेको छ ।
-                                उनी
-                                तर,
-                                क्लबले
-                                गाबोनकातर, क्लबले गाबोनका आर्सनल छाडेर
-                                बार्सिलोना पुगेका छन् । तर, क्लबले गाबोनका</p>
-                        </div>
-                    </a>
-                    <div class="md-author-date"><a href="#"></a><a href="#">
-                        </a>
-                        <div class="md-author"><a href="#">
-                            </a><a href="#">
-                                <img src="./images/author-icon.png" alt="">
-                                <span>चम्पा कुमारी</span>
-                            </a>
-                        </div>
-                        <div class="time-stamp ts-small">
-                            <div class="hmd-single">
-                                <img src="./images/calender-icon-small.png" alt="">
-                                <span> माघ १९, बुधबार</span>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
             </div>
         </div>
+
 
         <!-- bigyas -->
         <div class="row">

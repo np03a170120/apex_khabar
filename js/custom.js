@@ -31,3 +31,31 @@ $(document).ready(function() {
         $(".search-box input[type='text']").focus();
     });
 });
+
+// FONT SIZE CHANGER
+function fontInc() {
+    document.getElementById("fontSize").style.fontSize = "18px";
+}
+
+function fontRes() {
+    document.getElementById("fontSize").style.fontSize = "16px";
+}
+
+function fontDec() {
+    document.getElementById("fontSize").style.fontSize = "14px";
+}
+// DARK MODE
+$(document).ready(function() {
+    $("#color_mode").on("change", function() {
+        colorModePreview(this);
+    });
+});
+
+function colorModePreview(ele) {
+    console.log($(ele).prop("checked"));
+    if ($(ele).prop("checked") == true) {
+        $("html").addClass("dark-mode");
+    } else if ($(ele).prop("checked") == false) {
+        $("html").removeClass("dark-mode");
+    }
+}

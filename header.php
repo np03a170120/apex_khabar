@@ -144,6 +144,16 @@
                                     </form>
                                 </div>
                             </li>
+
+                            <li class="nav-item">
+                                <div class="header-dark-mode">
+                                    <label class="switch btn-color-mode-switch">
+                                        <input type="checkbox" name="color_mode" id="color_mode" value="1">
+                                        <span class="slider round btn-color-mode-switch-inner"></span>
+                                    </label>
+                                    <strong>Dark</strong>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </nav>

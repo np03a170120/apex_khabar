@@ -41,17 +41,37 @@
                         <img src="./images/headling-news.png" alt="">
                     </div>
                 </div>
-                <!-- <div class="summary-news">
-                    <div class="sn-title">
-                        <h6>सारङ्स पढ्नुहोस</h6>
+                <div class="summary-news">
+                    <div class="title-btn-wrapper">
+                        <div class="sn-title">
+                            <h6>सारङ्स पढ्नुहोस</h6>
+                        </div>
+                        <div class="accessibility-btns">
+                            <button type="button" class="btn-small" onclick="fontDec()" title="Decrease Font Size">
+                                अ-
+                            </button>
+                            <button type="button" class="btn-small" onclick="fontRes()" title="Reset Font Size">
+                                अ
+                            </button>
+                            <button type="button" class="btn-small" onclick="fontInc()" title="Increase Font Size">
+                                अ+
+                            </button>
+                            <button type="button" class="btn-small" title="Increase Font Size">
+                                <img src="./images/news-only.png" alt="">
+                            </button>
+                        </div>
                     </div>
                     <ul class="sn-news">
-                        <li>एमसीसी पास नभए सत्ता गठबन्धन तोडिन्छ भन्ने कुरासमेत भ्रममात्रै</li>
-                        <li>एमसीसी पास नभए सत्ता गठबन्धन तोडिन्छ भन्ने कुरासमेत भ्रममात्रै</li>
-                        <li>एमसीसी पास नभए सत्ता गठबन्धन तोडिन्छ भन्ने कुरासमेत भ्रममात्रै</li>
+                        <li><img src="./images/side-icon.png" alt="">एमसीसी पास नभए सत्ता गठबन्धन तोडिन्छ भन्ने
+                            कुरासमेत भ्रममात्रै</li>
+                        <li><img src="./images/side-icon.png" alt="">एमसीसी पास नभए सत्ता गठबन्धन तोडिन्छ भन्ने कुरासमेत
+                            भ्रममात्रै</li>
+                        <li><img src="./images/side-icon.png" alt="">एमसीसी पास नभए सत्ता गठबन्धन तोडिन्छ भन्ने कुरासमेत
+                            भ्रममात्रै</li>
                     </ul>
-                </div> -->
-                <div class="bn-news">
+                </div>
+
+                <div class="bn-news" id="fontSize" style="font-size: 16px;">
                     <p>
                         उनले एमसीसी पास नभए सत्ता गठबन्धन तोडिन्छ भन्ने कुरासमेत भ्रममात्रै भएको दाबी गरेका छन् ।‘कुनै
                         भ्रममा नपरौं । प्रधानमन्त्री शेरबहादुर देउवाले एमसीसी सम्झौता पारित नगरे सत्तारुढ गठबन्धन
@@ -506,8 +526,6 @@
                         <img src="./images/col-4-bigya.png" alt="">
                     </a>
                 </div>
-
-
             </div>
         </div>
     </div>
