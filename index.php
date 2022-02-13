@@ -1543,4 +1543,13 @@
     </div>
 </section>
 
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+    Launch demo modal
+</button>
+
+
+
 <?php include 'footer.php'?>
