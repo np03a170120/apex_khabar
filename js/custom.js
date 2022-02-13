@@ -52,3 +52,7 @@ function fontRes() {
 function fontDec() {
     document.getElementById("fontSize").style.fontSize = "14px";
 }
+
+$(window).on("load", function() {
+    $("#myModal").modal("show");
+});

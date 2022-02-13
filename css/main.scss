@@ -893,3 +893,38 @@ input:checked+.slider:before {
         margin-bottom: 0;
     }
 }
+
+.mc-image {
+    margin-top: 32px;
+    img {
+        height: auto;
+        width: 100%;
+    }
+}
+
+.modal-open .modal {
+    background-color: #f0f0ef;
+}
+
+button.close {
+    position: absolute;
+    right: 0px;
+    top: 90px;
+    color: red;
+    font-size: 36px;
+    text-shadow: 0 0 black;
+}
+
+.modal-content {
+    text-align: center;
+    border: none;
+    background-color: #f0f0ef;
+}
+
+.fm-upper {
+    h2,
+    h4 {
+        color: $primary-color;
+        font-weight: 600;
+    }
+}
