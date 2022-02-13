@@ -18,7 +18,7 @@
 
 </head>
 
-<body>
+<body class="unselectable">
     <header class="header-main">
         <div class="header-top-wrapper">
             <div class="container">
