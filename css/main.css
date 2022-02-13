@@ -55,6 +55,7 @@ body p {
 }
 
 .sec-title {
+  z-index: 2;
   text-transform: capitalize;
 }
 
@@ -103,6 +104,7 @@ body p {
 
 .view-all {
   background: #f0f0ef;
+  z-index: 2;
 }
 
 .view-all a {
@@ -132,7 +134,7 @@ body p {
   width: 100%;
   left: 50%;
   border: 1px solid #cc062d;
-  z-index: -1;
+  z-index: 1;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }

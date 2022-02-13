@@ -51,6 +51,7 @@ body {
 }
 
 .sec-title {
+    z-index: 2;
     text-transform: capitalize;
     h3 {
         font-weight: 500;
@@ -98,6 +99,7 @@ body {
 
 .view-all {
     background: #f0f0ef;
+    z-index: 2;
     a {
         color: $primary_color;
         font-size: 18px;
@@ -118,7 +120,7 @@ body {
         width: 100%;
         left: 50%;
         border: 1px solid $primary_color;
-        z-index: -1;
+        z-index: 1;
         transform: translateX(-50%);
     }
 }
