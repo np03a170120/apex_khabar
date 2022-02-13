@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/responsive.css">
     <title>Apex Khabar</title>
+
 </head>
 
 <body>
@@ -112,9 +113,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">समाज</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">स्थानीय सरकार</a>
-                            </li>
+
                             <li class="nav-item">
                                 <a class="nav-link" href="#">समाज</a>
                             </li>
@@ -146,12 +145,22 @@
                             </li>
 
                             <li class="nav-item">
-                                <div class="header-dark-mode">
+                                <!-- <div class="header-dark-mode">
                                     <label class="switch btn-color-mode-switch">
                                         <input type="checkbox" name="color_mode" id="color_mode" value="1">
                                         <span class="slider round btn-color-mode-switch-inner"></span>
                                     </label>
                                     <strong>Dark</strong>
+                                </div> -->
+                                <div class="header-dark-mode">
+
+
+                                    <label class="switch btn-color-mode-switch">
+                                        <input type="checkbox" name="color_mode" id="color_mode" value="1">
+                                        <span class="slider round btn-color-mode-switch-inner"></span>
+                                    </label>
+                                    <strong>Dark</strong>
+
                                 </div>
                             </li>
                         </ul>

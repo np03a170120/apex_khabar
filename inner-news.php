@@ -10,6 +10,7 @@
     </nav>
 </section>
 
+
 <!-- inner news -->
 <section class="inner-news">
     <div class="container">
@@ -122,13 +123,13 @@
                 </div>
 
                 <!-- pratikriya -->
-                <!-- <div class="fb-comments">
+                <div class="fb-comments">
                     <div class="sec-title">
                         <h6>
                             प्रतिक्रिया
                         </h6>
                     </div>
-                </div> -->
+                </div>
             </div>
             <div class="col-md-3">
                 <div class="side-news">
