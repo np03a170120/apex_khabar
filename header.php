@@ -84,11 +84,11 @@
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#"><img src="./images/home-icon.png" alt=""><span
+                                <a class="nav-link" href="index.php"><img src="./images/home-icon.png" alt=""><span
                                         class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">राजनीति</a>
+                                <a class="nav-link" href="category.php">राजनीति</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">सुशासन</a>
@@ -154,10 +154,11 @@
                                     <strong>Dark</strong>
                                 </div> -->
                                 <div class="header-dark-mode">
+                                    <a href=""></a>
 
-
-                                    <label class="switch btn-color-mode-switch">
-                                        <input type="checkbox" name="color_mode" id="color_mode" value="1">
+                                    <label class="switch btn-color-mode-switch darkButton">
+                                        <input onclick="toggleDarkMode()" id="darkButton" class="darkButton"
+                                            type="checkbox" name="color_mode" id="color_mode" value="1">
                                         <span class="slider round btn-color-mode-switch-inner"></span>
                                     </label>
                                     <strong>Dark</strong>

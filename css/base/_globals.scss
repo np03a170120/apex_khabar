@@ -139,3 +139,30 @@ body {
     padding-bottom: 8px;
     border-bottom: 1px solid rgba(128, 128, 128, 0.171);
 }
+
+// darkmode
+.dark-mode {
+    background-color: black;
+    color: white;
+    transition: none;
+    .modal-open .modal {
+        background-color: #fdfdfd87;
+    }
+}
+
+// lightmode
+.lightButton {
+    background-color: rgb(220, 220, 220);
+    color: black;
+    font-family: Roboto;
+}
+
+.light-modal {
+    background-color: #00000052 !important;
+    .modal-content {
+        position: absolute;
+        top: 1%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

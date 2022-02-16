@@ -766,36 +766,6 @@
     }
 }
 
-// dark mode
-.header-dark-mode {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin: 0 25px;
-}
-
-.header-dark-mode {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin: 0 25px;
-}
-
-.header-dark-mode strong {
-    color: $secondary_color;
-    font-weight: 600;
-    font-size: 14px;
-    margin-left: 5px;
-    text-transform: uppercase;
-    font-family: sans-serif;
-}
-
 .dark-mode {
     -webkit-filter: invert(100%);
     filter: invert(100%);
@@ -803,8 +773,8 @@
 }
 
 .dark-mode img {
-    -webkit-filter: invert(100%) !important;
-    filter: invert(100%) !important;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
 }
 
 .dark-mode i {

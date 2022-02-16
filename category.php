@@ -20,7 +20,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="med-bigya">
-                    <a href="#">
+                    <a href="inner-news.php">
                         <div class="mb-image">
                             <img src="./images/dummy-image-0.png" alt="">
                         </div>
