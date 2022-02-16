@@ -154,16 +154,18 @@
                                     <strong>Dark</strong>
                                 </div> -->
                                 <div class="header-dark-mode">
-                                    <a href=""></a>
-
                                     <label class="switch btn-color-mode-switch darkButton">
                                         <input onclick="toggleDarkMode()" id="darkButton" class="darkButton"
                                             type="checkbox" name="color_mode" id="color_mode" value="1">
-                                        <span class="slider round btn-color-mode-switch-inner"></span>
+                                        <span class="slider round "></span>
+                                        <strong class="darkButton">Dark</strong>
                                     </label>
-                                    <strong>Dark</strong>
-
                                 </div>
+
+
+                                <!-- <div class="color-mode">
+                                    <a onclick="toggleDarkMode()" id="darkButton" class="darkButton">Darkmode: Off</a>
+                                </div> -->
                             </li>
                         </ul>
                     </div>

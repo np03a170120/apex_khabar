@@ -169,15 +169,24 @@ body p {
 }
 
 .light-modal {
-  background-color: #00000052 !important;
+  background-color: #f1f1f1 !important;
 }
 
 .light-modal .modal-content {
   position: absolute;
-  top: 1%;
+  top: 2%;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+}
+
+.color-mode {
+  padding: 6px 8px;
+  background: #cc062d;
+}
+
+.color-mode a {
+  color: white;
 }
 
 .header-top-wrapper {
